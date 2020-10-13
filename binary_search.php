@@ -1,5 +1,5 @@
 <?php
-
+// 二分查找
 function getValue($num, $arr)
 {
 //查找数组的中间位置
@@ -26,5 +26,4 @@ function getValue($num, $arr)
 
 }
 
-//echo getValue(2,[1,2,3,4,5,6,7,8,9,10]);
-var_dump((1-0.9)==0.1);
+echo getValue(2,[1,2,3,4,5,6,7,8,9,10]);
