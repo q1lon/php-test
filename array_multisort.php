@@ -1,4 +1,5 @@
 <?php
+//多维数据排序
 $data[] = array('customer_name' => '小李', 'money' => 12, 'distance' => 2, 'address' => '长安街C坊');
 $data[] = array('customer_name' => '王晓', 'money' => 30, 'distance' => 10, 'address' => '北大街30号');
 $data[] = array('customer_name' => '赵小雅', 'money' => 89, 'distance' => 6, 'address' => '解放路恒基大厦A座');
