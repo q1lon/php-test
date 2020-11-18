@@ -1,10 +1,10 @@
 <?php
 //数组去重
 $a1 = array("a" => "red", "b" => "red", "c" => "blue", "d" => "yellow");
-// 1 array_unique 数据去重
+// 方式1 array_unique 数据去重
 $result = array_unique1($a1);
 print_r($result);
-// 2 翻转数组
+// 方式1 array_flip翻转数组
 //$result = array_flip($result);
 //print_r($result);
 

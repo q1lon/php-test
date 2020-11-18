@@ -13,7 +13,7 @@ trait B
 {
     public function sayHello()
     {
-//        parent::sayHello();
+        parent::sayHello();
         echo "B";
     }
 }
