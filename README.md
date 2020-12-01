@@ -11,4 +11,6 @@ PHP测试
 [递归函数输出 32123](recursion.php)<br>
 [PHP简单利用token防止表单重复提交](session_token.php)<br>
 [trait继承中优先顺序](trait.php)<br>
-
+[interface接口实现方法](interface_test.php)<br>
+[abstract抽象类和抽象方法的实现](abstract_test.php)<br>
+[获取文件名例如abc.111.php](get_ext.php)<br>

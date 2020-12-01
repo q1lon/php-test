@@ -11,7 +11,7 @@ function getValue($num, $arr)
 //循环判断
     while ($start < $end - 1) {
         if ($arr[$middle] == $num) {
-            return $middle + 1;
+            return $middle +1;
         } elseif ($arr[$middle] < $num) {
 //如果当前要查找的值比当前数组的中间值还要大，那么意味着该值在数组的后半段
 //所以起始位置变成当前的middle的值，end位置不变。
@@ -25,5 +25,6 @@ function getValue($num, $arr)
     return false;
 
 }
-
-echo getValue(2,[1,2,3,4,5,6,7,8,9,10]);
+$arr=[0,1,3,4,6,7,8,10];
+$n= getValue(6,$arr);
+echo $n;
