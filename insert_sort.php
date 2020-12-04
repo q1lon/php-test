@@ -1,22 +1,23 @@
 <?php
 // 插入排序
+// 在要排序的一组数中，假设前面的数已经是排好顺序的，现在要把第 n 个数插到前面的有序数中，使得这 n 个数也是排好顺序的。如此反复循环，直到全部排好顺序。
 // 方式一(从大到小排)
-function quiclySort($arr)
+function insertSort($arr)
 {
     $count = count($arr);
     for ($i = 1; $i < $count; $i++) {
-        $tmp = $arr[$i];//3
-        $j = $i - 1; // 0
+        $tmp = $arr[$i];//3 4
+        $j = $i - 1; // 0 1
         while ($j >= 0 && $tmp > $arr[$j]) {
             $arr[$j + 1] = $arr[$j--];
         }
         $arr[$j + 1] = $tmp;
     }
     return $arr;
-}
+ }
 
 // 方式二(从小到大排)
-function insertSort($arr)
+function insertSort1($arr)
 {
     $len = count($arr);
     for ($i = 1, $i < $len; $i++;) {
@@ -37,4 +38,7 @@ function insertSort($arr)
 }
 
 $arr = [2, 3, 4, 1, 5, 6, 7];
-var_dump(quiclySort($arr));;
+//$arr = [3, 2, 4, 1, 5, 6, 7]; //$arr = [3, 4, 2, 1, 5, 6, 7]; //$arr = [4, 3, 2, 1, 5, 6, 7];
+
+
+var_dump(insertSort($arr));;

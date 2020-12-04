@@ -23,7 +23,6 @@ function getValue($num, $arr)
         }
     }
     return false;
-
 }
 $arr=[0,1,3,4,6,7,8,10];
 $n= getValue(6,$arr);
