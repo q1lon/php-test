@@ -1,5 +1,5 @@
 <?php
-
+// 消费延时队列
 set_time_limit(0);
 require_once './DelayQueue.php';
 $dq = new DelayQueue('close_order', [
