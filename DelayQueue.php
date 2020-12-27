@@ -1,5 +1,5 @@
 <?php
-// 使用 redis zset 实现延时队列
+
 class DelayQueue
 {
     protected $prefix = 'delay_queue:';
