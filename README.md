@@ -14,3 +14,4 @@ PHP测试
 [interface接口实现方法](interface_test.php)<br>
 [abstract抽象类和抽象方法的实现](abstract_test.php)<br>
 [获取文件名例如abc.111.php](get_ext.php)<br>
+[返回链接中的文件名](url_basename.php)<br>
