@@ -1,7 +1,10 @@
 # php-test
 <div align=center>
-<img style="width:20%; height:20%; border-radius:100%; overflow:hidden;text-align:center" src="https://avatars.githubusercontent.com/u/9638312?v=4" align="center">
+
+![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/9638312?v=4&h=100&w=100&fit=cover&mask=circle&maxage=7d
+)
 </div>
+
 
 <h2 align="center">PHP测试</h2>
 
